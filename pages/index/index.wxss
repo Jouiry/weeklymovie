@@ -1,0 +1,25 @@
+/**index.wxss**/
+
+.container {
+  height: 100vh;
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.index-banner {
+  width: 375rpx;
+  height: 375rpx;
+  border-radius: 50%;
+}
+
+
+.nav-default {
+  color: blue;
+}
+
+.nav-hover {
+  color: red;
+}
