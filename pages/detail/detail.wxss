@@ -1,0 +1,4 @@
+.detail-image {
+    height: 300rpx;
+    width: 300rpx;
+}

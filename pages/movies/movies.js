@@ -6,21 +6,21 @@ Page({
         comment: "失去的才是永恒",
         imagePath: "/images/titanic.jpg",
         isHighlyRecomment: false,
-        id: 1
+        id: 1292722
       },
       {
         name: "这个杀手不太冷",
         comment: "小萝莉与怪蜀黍纯真灿烂的爱情故事",
         imagePath: "/images/leon.jpg",
         isHighlyRecomment: true,
-        id: 2
+        id: 1295644
       },
       {
         name: "教父",
         comment: "最精彩的剧本，最真实的黑帮电影",
         imagePath: "/images/jiaofu.jpg",
         isHighlyRecomment: true,
-        id: 3
+        id: 1291841
       }
     ],
     currentIndex: 1
@@ -40,7 +40,7 @@ Page({
 
   f1: function (event) {
     var movieId = event.currentTarget.dataset.movieId
-    console.log(movieId)
+    //console.log(movieId)
     wx.navigateTo({
       url: '/pages/detail/detail?id=' + movieId,
     })
