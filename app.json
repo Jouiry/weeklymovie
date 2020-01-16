@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/movies/movies",
+    "pages/detail/detail"
+  ],
+  "tabBar": {
+    "list": [
+      {
+      "pagePath": "pages/movies/movies",
+      "text": "每周推荐",
+      "iconPath": "images/icon/tuijian.png",
+      "selectedIconPath": "images/icon/tuijian-selected.png"
+    },
+    {
+      "pagePath": "pages/index/index",
+      "text": "关于",
+      "iconPath": "images/icon/guanyu.png",
+      "selectedIconPath": "images/icon/guanyu-selected.png"
+    }
+    ],
+    "color": "#000",
+    "selectedColor": "#00f"
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "电影周周看",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
